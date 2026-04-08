@@ -1,6 +1,6 @@
 # ABR Geocoder (Go)
 
-A Go port of the [ABR Geocoder](https://github.com/digital-go-jp/abr-geocoder) — an official geocoding tool from Japan's Digital Agency (デジタル庁) that normalizes Japanese domestic addresses using the Address Base Registry (ABR).
+A Go port of the [ABR Geocoder](https://github.com/digital-go-jp/abr-geocoder) by Japan's Digital Agency (デジタル庁) that normalizes Japanese domestic addresses using the Address Base Registry (ABR).
 
 ## Overview
 
@@ -12,13 +12,13 @@ This tool geocodes Japanese addresses by:
 ## Installation
 
 ```bash
-go install github.com/digital-go-jp/abr-geocoder-go/cmd/abrg@latest
+go install github.com/mbasa/abr-geocoder-go/cmd/abrg@latest
 ```
 
 Or build from source:
 
 ```bash
-git clone https://github.com/digital-go-jp/abr-geocoder-go
+git clone https://github.com/mbasa/abr-geocoder-go
 cd abr-geocoder-go
 go build -o abrg ./cmd/abrg
 ```
