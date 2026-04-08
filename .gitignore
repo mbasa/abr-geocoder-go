@@ -1,0 +1,27 @@
+# Claude Code session data
+.claude/
+
+# Build output
+build/
+
+# Go test cache and coverage
+*.test
+*.out
+coverage.html
+
+# Dependency vendor directory (if not committed)
+vendor/
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# Editor artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
